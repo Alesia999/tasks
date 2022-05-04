@@ -1,0 +1,19 @@
+<div *ngIf="task" class="card-detail-wrapper">
+  <form action="#">
+    <label for="taskName">TASK TITLE </label
+    ><input
+      id="taskName"
+      name="taskName"
+      [(ngModel)]="task.name"
+      type="text"
+    /><label for="taskDescription">TASK DESCRIPTION</label
+    ><textarea
+      id="taskDescription"
+      name="taskDescription"
+      [(ngModel)]="task.description"
+      rows="4"
+    ></textarea>
+    <button (click)="goBack()">BACK</button>
+    <button type="button" (click)="save()">SAVE</button>
+  </form>
+</div>

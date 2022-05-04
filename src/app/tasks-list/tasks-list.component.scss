@@ -1,0 +1,43 @@
+.tasks {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.tasks li {
+  display: flex;
+}
+
+.list-item {
+  cursor: pointer;
+  position: relative;
+  left: 60px;
+  background-color: #EEE;
+  margin: .5em;
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#btn {
+
+  background: #a64d37;
+  color: #fff;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+}
+
+#delete-btn {
+  margin-left: 10px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #a64d37;
+}

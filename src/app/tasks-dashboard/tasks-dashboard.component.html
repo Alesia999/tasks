@@ -1,0 +1,16 @@
+<div class="wrapper" *ngIf="tasks">
+  <div class="card-wrapper" *ngFor="let task of tasks">
+    <div class="container_copy">
+      <h1>{{ task.name }}</h1>
+      <p>
+        {{ task.description }}
+      </p>
+    </div>
+    <a class="btn_primary" routerLink="/detail/{{ task.id }}"
+      >Edit task</a
+    >
+    <a class="btn_primary"  (click)="delete(task)"
+      >Delete Task</a
+    >
+  </div>
+</div>

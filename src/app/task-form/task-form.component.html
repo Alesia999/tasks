@@ -1,0 +1,20 @@
+<div>
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Title..."
+    #taskName
+    [(ngModel)]="title"
+  />
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Description..."
+    #taskDescription
+    [(ngModel)]="text"
+  />
+
+  <button class="btn" (click)="add(taskName.value, taskDescription.value)">
+    Add Task
+  </button>
+</div>

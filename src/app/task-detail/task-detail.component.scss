@@ -1,0 +1,49 @@
+.card-detail-wrapper {
+  background: #f8f4e5;
+  padding: 10px 10px 50px;
+  border-top: 10px solid #eaf755;
+  max-width: 500px;
+  margin-bottom: 100px;
+}
+
+label, input, textarea {
+  display: block;
+  width: 80%;
+  font-size: 12pt;
+  line-height: 24pt;
+  font-family: "Spartan";
+}
+
+input {
+  margin-bottom: 24pt;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 10pt;
+  line-height: 24pt;
+  font-style: italic;
+  margin: 0 0 0.5em 0;
+}
+textarea {
+  resize: none;
+}
+button {
+  display: block;
+  float: right;
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  background: #f45702;
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none;
+}
+button:hover {
+  background: inherit;
+  color: #f45702;
+  border-bottom: 2px solid #f45702;
+}
+
